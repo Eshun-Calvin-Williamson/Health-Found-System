@@ -225,3 +225,141 @@ nav ul li a:hover {
 
 
 }
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .image-holder{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .large-image{
+    /* border: 1px solid blueviolet; */
+    width: 50%;
+    height: 50vh;
+    padding: 40px;
+    border-radius: 30px;
+    position: relative;
+    left: 15%;
+    top: 10%;
+  }
+  
+  .mini-image{
+    /* border: 1px solid blueviolet; */
+    width: 70%;
+    height: 45vh;
+    border-radius: 20px;
+    position: relative;
+    left: 70%;
+  }
+
+
+  .plan{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 190px ;
+    gap: 50px;
+    margin-left: 20px;
+  }
+
+  .one{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .nav-image{
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+  }
+
+  .image{
+    width: 15%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 1px;
+  }
+
+  .navbar{
+    width: 90%;
+    margin-left: 0%;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+  }
+
+  .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+    .exist{
+      display: none;
+    }
+
+
+    .navbar ul li a{
+      text-decoration: none;
+
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  body{
+    background-color: #333;
+  }
+
+
+  .nav-image{
+    width: 100vw;
+    border: 1px solid blueviolet;
+  }
+
+  .image{
+    width: 11%;
+  }
+
+  .navbar{
+    width: 89vw;
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+  }
+
+  .plan{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 320px;
+    gap: 20px;
+  }
+
+
+  hr{
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  body{
+    /* background-color: palevioletred; */
+  }
+  .org-title{
+    width: 100vw;
+  }
+
+  .plan{
+    display: grid;
+    grid-template-columns: 360px 400px 400px;
+    grid-template-rows: 400px;
+    gap: 50px ;
+    margin-left: 10px;
+  }
+
+}
