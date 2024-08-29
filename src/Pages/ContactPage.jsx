@@ -4,10 +4,12 @@ function ContactPage(){
             <section>
                 <br />
                 <div className="ctt-soc">
-                    <a href="#">X Tweet</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Whatsapp</a>
-                    <a href="#">Google</a>
+                
+                    <a href="https://www.tiktok.com/@bebsol_foundation_gh?_t=8pB3vu8wLsk&_r=1">TiKTok</a>
+                    <a href="https://www.facebook.com/share/utxgZVctJ3oPQjPP/?mibextid=LQQJ4d">Facebook</a>
+                    {/* <a href="#">WhatsApp</a> */}
+                    <a href="https://www.instagram.com/bebsol_foundation_gh?igsh=dHMxeXMwZDRvd3Z4&utm_source=qr ">Instagram</a>
+            
                 </div>
                 <hr />
                 <br /><br />

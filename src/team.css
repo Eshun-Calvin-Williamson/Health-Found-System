@@ -1,5 +1,6 @@
 .happenings{
     background-color: black;
+    overflow-x: hidden;
 }
 .who{
     color: white;
@@ -33,13 +34,74 @@
 
 @media(max-width:767px){
     .happenings{
-        width:min-content;
+        width:129.5%;
+    }
+
+    .team-members{
+        background-color: red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+        padding: 2rem 0;
+        gap: 2rem;
+
+        /* height: min-content;
+        padding: 2rem;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem; */
+
+    }
+    .members{
+        width: 80%;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mem-image{
+        width: 90%;
+        height: 70%;
+        border: 1px solid black;
+        border-radius: 1rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .happenings{
+        width: 100vw;
+    }
+
+    .team-members{
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns:300px 300px 300px;
+        grid-template-rows: 350px 350px;
+        /* overflow-x: hidden; */
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px){
+    .happenings{
+        width: 100vw;
     }
 
     .team-members{
         display: grid;
-        grid-template-columns: 257px 257px;
-        grid-template-rows: 200px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 330px;
+    }
+
+     .members .name{
+        display: flex;
+        justify-content: center;
+        line-height: 9px;
 
     }
 }

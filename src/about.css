@@ -265,6 +265,7 @@
 
     .mission{
         width: 129.5%;
+        height: auto;
     }
 
     .grid-mission{
@@ -286,5 +287,46 @@
         width: 90%;
         height: 40vh;
         /* border: none; */
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .grid-mission{
+        display: grid;
+        grid-template-columns: 260px 260px 260px;
+        grid-template-rows: 380px 380px 380px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+    .scd-nav{
+        width: 100vw;
+    }
+
+    .thrd-nav{
+        width: 100vw;
+    }
+
+    .soc{
+        width: 100vw;
+    }
+
+    .head-tx-vid{
+        width: 100vw;
+    }
+    .mission{
+        width: 100vw;
+    }
+
+    .abt-lst{
+        width: 100vw;
+    }
+
+    .grid-mission{
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 320px 320px 320px;
     }
 }

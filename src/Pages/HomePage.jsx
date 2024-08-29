@@ -3,11 +3,18 @@ const HomePage=()=>{
         <>
         <br /><br />
             <div className="org-title">
-                <h2>ORANISATION NAME</h2>
+                <h2>BEBSOL FOUNDATION</h2>
             </div>
 
             <div className="org-title-2">
-                <h3>TEXT DESCRIPTION</h3>
+                <h3>MOTTO: LET LOVE LEAD 
+                    <ol>Welcome to the Bebsol Foundation. This handbook is designed to provide members 
+                        with a clear and concise understanding of our foundation's objectives, mission, vision, 
+                        and policies. Whether you are a new member or have been with us for a period, this 
+                        guide will help you understand briefly how we work together to achieve our common 
+                        goals.
+                    </ol>
+                </h3>
             </div>
         
 

@@ -151,3 +151,22 @@ section{
         width: 90%;
     }
 }
+
+
+@media only screen and (min-width: 1200px){
+    .ctt-soc{
+        width: 100vw;
+    }
+
+    .ctt-bh-sh{
+        width: 100vw;
+    }
+
+    .con-image-text{
+        width: 100vw;
+    }
+
+    .two-image{
+        width: 100vw;
+    }
+}

@@ -20,11 +20,58 @@ const TeamPage =()=>{
                         <p>position</p>
                     </div>
                 </div>
-                <div className="members"></div>
-                <div className="members"></div>
-                <div className="members"></div>
-                <div className="members"></div>
-                <div className="members"></div>
+                <div className="members"> 
+                    <div className="mem-image">
+                        <img src="" alt="image" />
+                    </div>
+                    <div className="name">
+                        <p>member</p>
+                    </div>
+                    <div className="name">
+                        <p>position</p>
+                    </div></div>
+                <div className="members">
+                <div className="mem-image">
+                        <img src="" alt="image" />
+                    </div>
+                    <div className="name">
+                        <p>member</p>
+                    </div>
+                    <div className="name">
+                        <p>position</p>
+                    </div>
+                </div>
+                <div className="members">
+                <div className="mem-image">
+                        <img src="" alt="image" />
+                    </div>
+                    <div className="name">
+                        <p>member</p>
+                    </div>
+                    <div className="name">
+                        <p>position</p>
+                    </div>
+                </div>
+                <div className="members">
+                <div className="mem-image">
+                        <img src="" alt="image" />
+                    </div>
+                    <div className="name">
+                        <p>member</p>
+                    </div>
+                    <div className="name">
+                        <p>position</p>
+                    </div>
+                </div>
+                <div className="members"> <div className="mem-image">
+                        <img src="" alt="image" />
+                    </div>
+                    <div className="name">
+                        <p>member</p>
+                    </div>
+                    <div className="name">
+                        <p>position</p>
+                    </div></div>
             </div>
         </div>
     )
