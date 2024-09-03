@@ -8,10 +8,14 @@
 .whodesc{
     color: white;
 }
+.whodesc >p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
 
 .team-members{
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: grid;
     justify-content: center;
     grid-template-columns: 450px 450px 450px;
@@ -38,7 +42,7 @@
     }
 
     .team-members{
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -57,7 +61,7 @@
     }
     .members{
         width: 80%;
-        height: 30rem;
+        height: 84vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -65,9 +69,38 @@
 
     .mem-image{
         width: 90%;
-        height: 70%;
+        height: 50%;
         border: 1px solid black;
         border-radius: 1rem;
+    }
+    /* .members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+    }
+    .mem-image{
+       width: 90%;
+       height: 30vh;
+       border: 1px solid white;
+       display: flex;
+       justify-content: center;
+       border-radius: 20px;
+       
+    } */
+    .mem-image >img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 20px;
+    }
+
+    .name> p{
+        color: hsl(220, 82%, 39%);
+        /* font-weight: bolder; */
+        font-size: 15px;
+        /* font-variant: small-caps; */
+        margin-top: 5.8rem;
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
@@ -79,9 +112,30 @@
         width: 100vw;
         height: auto;
         display: grid;
-        grid-template-columns:300px 300px 300px;
-        grid-template-rows: 350px 350px;
+        grid-template-columns:300px 300px ;
+        grid-template-rows: 350px 350px 350px ;
         /* overflow-x: hidden; */
+    }
+    .members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+    }
+    .mem-image{
+       width: 90%;
+       height: 30vh;
+       border: 1px solid white;
+       display: flex;
+       justify-content: center;
+       border-radius: 20px;
+       
+    }
+    .mem-image >img{
+        width: 100%;
+        height: 20vh;
+        border-radius: 20px;
     }
 }
 
@@ -95,7 +149,8 @@
     .team-members{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 330px;
+        grid-template-rows: 330px 330px ;
+        grid-auto-rows: 330px;
     }
 
      .members .name{
@@ -103,5 +158,27 @@
         justify-content: center;
         line-height: 9px;
 
+    }
+
+    .members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+    }
+    .mem-image{
+       width: 50%;
+       height: 80vh;
+       border: 1px solid white;
+       display: flex;
+       justify-content: center;
+       border-radius: 20px;
+       
+    }
+    .mem-image >img{
+        width: 100%;
+        height: 30vh;
+        border-radius: 20px;
     }
 }

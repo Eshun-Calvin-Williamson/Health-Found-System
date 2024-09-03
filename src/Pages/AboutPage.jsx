@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "/public/logo.png"
 function AboutPage(){
     return(
         <>
@@ -14,7 +15,7 @@ function AboutPage(){
         <div className="scd-nav">
             <div className="img-h-t-h">
                 <div className="img-h">
-                    <img src="" alt="LOGO" />
+                    <img src={logo} alt="LOGO" />
                 </div>
                 <div className="tx-h">
                     TEXT

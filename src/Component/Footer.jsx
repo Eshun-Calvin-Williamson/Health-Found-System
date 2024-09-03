@@ -1,9 +1,12 @@
+import logo from "/public/logo.png"
+
+
 function  Footer(){
     return(
         <>
             <div className="last">
                 <div className="info">
-                    {/* <img src="" alt="" /> */} <h1>LOGO</h1>
+                    <img src={logo} alt="" /> 
                 </div>
                 <div className="info">
                     <form action="/submit">
